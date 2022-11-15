@@ -1,2 +1,2 @@
-# Repo for Elizabeth and Masereka
-# simple_shell
+# C - Simple Shell
+By Elizabeth Pfachi and Masereka Benon
