@@ -4,14 +4,14 @@ In this project we coded from scratch how a simple shell works on a UNIX systemi
 The shell allows one to type a coomand upon which the command will be executed and output given to the user.
 This shell looks specific buildin functions e.g: cd , exit,etc and other functionality like memory leaks, running of executables found in environmment variables eg: ls,pwd, echo,which
 
-###Builtins
+### Builtins
 1- exit exits shell
 2- env prints environment variables
 3- setenv - creayes or modifies an environment variable if it doesnt exist
 4- unsetenv - removes an environment variable
 5- changes directory
 
-###Description of files
+### Description of files
 1. main.c ----------------------Entrance into program
 2. shell -----------------------Holds function prototypes
 3. use_prompt.c ----------------Handles user input and execution
@@ -35,7 +35,7 @@ This shell looks specific buildin functions e.g: cd , exit,etc and other functio
 21. free_db_ptr.c --------------free double pointers
 22. _execve.c ------------------execute a command  
 
-###Environment
+### Environment
 Laguage: C
 OS: Ubuntu 20.04 LTS
 style guidelines: Betty style
@@ -44,7 +44,7 @@ compiler : gcc
 ### How to compile
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-##Flow chart of shell
+## Flow chart of shell
 
 ![Simple Shell Flowchart](https://drive.google.com/uc?export=view&id=1JJdWZHREv29IiOgF6v43fOx4omJMTslq)
 
