@@ -13,8 +13,8 @@ This shell looks specific buildin functions e.g: cd , exit,etc and other functio
 
 ### Description of files
 1. main.c ----------------------Entrance into program
-2. shell -----------------------Holds function prototypes
-3. use_prompt.c ----------------Handles user input and execution
+1. shell -----------------------Holds function prototypes
+1. use_prompt.c ----------------Handles user input and execution
 4. _strcat - -------------------concatenate a string
 5. _strcmp.c -------------------comapre two strings for a match
 6. _strdup.c -------------------duplicate a string
