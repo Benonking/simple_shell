@@ -12,27 +12,28 @@ This shell looks specific buildin functions e.g: cd , exit,etc and other functio
 5- changes directory
 
 ###Description of files
-1. main.c ----------------Entrance into program
-2. shell -----------------Holds function prototypes
-3. use_prompt.c ----------Handles user input and execution
-4. _strcat - -------------concatenate a string
-5. _strcmp.c ------------comapre two strings for a match
-6. _strdup.c ------------duplicate a string
-7. _strcpy----------------copy a string
-8. readline.c-------------read user input and store it in buffer
-9. _cd.c------------------change directory
-10. linked_list_traversal --add, deletes nodes
-11. int_to_str.c ----------convert int to string
-12. _realloc.c ------------reallocate memory
-13. non_iteractive.c -------handle output outside the shell
-14. _exit ------------------exit shell
-15. set_env.c---------------
-16._strtok.c ----------------pares input command
-18. set_env -----------------
-19.print_error.c .........Pritn special error messages
-20.which.c ---------------appends command to PATHs and returns match from env variables
-21. envList ------------create a linked list of environment variables
-22.c_str_tok.c---------------custom parse 
+1. main.c ----------------------Entrance into program
+2. shell -----------------------Holds function prototypes
+3. use_prompt.c ----------------Handles user input and execution
+4. _strcat - -------------------concatenate a string
+5. _strcmp.c -------------------comapre two strings for a match
+6. _strdup.c -------------------duplicate a string
+7. _strcpy----------------------copy a string
+8. readline.c-------------------read user input and store it in buffer
+9. _cd.c------------------------change directory
+10. linked_list_traversal ------add, deletes nodes
+11. int_to_str.c ---------------convert int to string
+12. _realloc.c -----------------reallocate memory
+13. non_iteractive.c -----------handle output outside the shell
+14. _exit ----------------------exit shell
+15. _strtok.c ------------------pares input command
+16. set_env --------------------set environment variables
+17. error.c --------------------Print special error messages
+18. which.c --------------------appends command to PATHs and returns match from env variables
+19. envList --------------------create a linked list of environment variables
+20. c_str_tok.c-----------------custom parse
+21. free_db_ptr.c --------------free double pointers
+22. _execve.c ------------------execute a command  
 
 ###Environment
 Laguage: C
