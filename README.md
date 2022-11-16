@@ -1,13 +1,13 @@
 # C - Simple Shell
 
-In this project we code a simple shell in C programming lanuage works on a UNIX system command line. The shell allows one to type a command and where applicable the command will be executed and output given to the user. If the command is not recognised it will display an error. This shell looks for specific buildt-in functions e.g: cd , exit, etc and other functionalities like memory leaks and running of executables found in environmment variables eg: ls,pwd, echo, which.
+In this project we code a simple shell in C programming lanuage which works on a UNIX system command line. The shell allows one to type a command and where applicable the command will be executed and output given back to the user. If the command is not recognised it will display an error. This shell looks for specific buildt-in functions e.g: cd , exit, etc and other functionalities like memory leaks and running of executables found in environmment variables eg: ls, pwd, echo, which.
 
 ## Usage
 The files in this repository were all compiled on an Ubuntu 20.04 LTS machine following the [Betty style guidlines](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl) using:
 ```
-	gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
-To start the shell simply run: `./shs`
+To start the shell simply run: `./shs`.
 To exit the shell run: `exit`
 
 ## Buitins
@@ -18,7 +18,7 @@ To exit the shell run: `exit`
 * changes directory
 
 ## Description of files
-1. main.c ----------------------Entrance into program
+1. main.c ----------------------b | Entrance into program
 1. shell -----------------------Holds function prototypes
 1. use_prompt.c ----------------Handles user input and execution
 1. _strcat - -------------------concatenate a string
