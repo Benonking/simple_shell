@@ -18,28 +18,31 @@ To exit the shell run: `exit`
 * changes directory
 
 ## Description of files
-1. main.c ----------------------b | Entrance into program
-1. shell -----------------------Holds function prototypes
-1. use_prompt.c ----------------Handles user input and execution
-1. _strcat - -------------------concatenate a string
-1. _strcmp.c -------------------comapre two strings for a match
-1. _strdup.c -------------------duplicate a string
-1. _strcpy----------------------copy a string
-1. readline.c-------------------read user input and store it in buffer
-1. _cd.c------------------------change directory
-1. linked_list_traversal ------add, deletes nodes
-1. int_to_str.c ---------------convert int to string
-1. _realloc.c -----------------reallocate memory
-1. non_iteractive.c -----------handle output outside the shell
-1. _exit ----------------------exit shell
-1. _strtok.c ------------------pares input command
-1. set_env --------------------set environment variables
-1. error.c --------------------Print special error messages
-1. which.c --------------------appends command to PATHs and returns match from env variables
-1. envList --------------------create a linked list of environment variables
-1. c_str_tok.c-----------------custom parse
-1. free_db_ptr.c --------------free double pointers
-1. _execve.c ------------------execute a command  
+
+| Name of File			| Description							|
+| -----------------------------	| ------------------------------------------------------------- |
+| main.c			| Entrance into program						|
+| shell.c			| Holds function prototypes					|
+| use_prompt.c			| Handles user input and execution				|
+| _strcat.c			| Concatenate a string						|
+| _strcmp.c			| Comapre two strings for a similarity.				|
+| _strdup.c			| Duplicate a string.						|
+| _strcpy.c			| Copy a string.						|
+| readline.c			| Read user input and store it in buffer.			|
+| _cd.c				| Change directory.						|
+| linked_list_traversal.c	| Add and deletes nodes.					|
+| int_to_str.c			| Convert int to string.					|
+| _realloc.c			| Reallocate memory.						|
+| non_iteractive.c		| Handle output outside the shell.				|
+| _exit.c			| Exit shell.							|
+| _strtok.c			| Parse input command.						|
+| set_env.c			| Set environment variables.					|
+| error.c			| Print special error messages.					|
+| which.c			| Appends command to PATHs and returns match from env variables.|
+| envList.c			| Create a linked list of environment variables.		|
+| c_str_tok.c			| Custom parse.							|
+| free_db_ptr.c			| Free double pointers.						|
+| _execve.c			| Execute a command						|
 
 
 ## Flow chart of shell
