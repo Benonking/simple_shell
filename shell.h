@@ -13,8 +13,8 @@
 #include <string.h>
 
 /**
- * struct list -linked list for environment varialbles
- * @env_var_str holds environment variables string
+ * struct list - linked list for environment varialbles
+ * @env_var_str: holds environment variables string
  * @next: points to next node
  *
  */
@@ -23,7 +23,7 @@ typedef struct list
 {
 	char *env_var_str;
 	struct list *next;
-}list_t;
+} list_t;
 
 /*readline*/
 size_t get_line(char **str);
@@ -80,7 +80,7 @@ void not_found(char *str, int c_n, list_t *env);
 
 /*helper functions*/
 int _strspn(char *str1, char *str2);
-char *_strcat(char *destinatiom,char *source);
+char *_strcat(char *destinatiom, char *source);
 char *_strcpy(char *source, char *dest);
 int _strcmp(char *first, char *second);
 char *int_to_string(int number);
@@ -88,4 +88,4 @@ char *_strdup(char *str);
 char *_which(char *str, list_t *env);
 char **c_str_tok(char *str, char *delm);
 int c_t_size(char *str, char delm);
-#endif 
+#endif
