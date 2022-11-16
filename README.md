@@ -48,5 +48,5 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 ![Simple Shell Flowchart](https://drive.google.com/uc?export=view&id=1JJdWZHREv29IiOgF6v43fOx4omJMTslq)
 
-Arthurs
-Masereka Benon and Elizabeth Pfachi
+### Arthurs
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/@benonking)
