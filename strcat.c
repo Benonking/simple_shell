@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		total_len++;
 	}
 
-	/* _realloc because dest was malloced outside of function */
+	/* reallocate because dest was malloced outside of function */
 	dest = _realloc(dest, len, sizeof(char) * total_len + 1);
 
 	while (src[j] != '\0')
