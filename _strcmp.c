@@ -13,7 +13,7 @@ int _strcmp(char *first, char *second)
 
 	while (*(first + i) == *(second + i) && *(first + i))
 		i++;
-	if(*(first + i))
+	if (*(first + i))
 		return (*(first + i) - *(second + i));
 	else
 		return (0);

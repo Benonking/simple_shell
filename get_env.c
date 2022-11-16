@@ -56,5 +56,6 @@ char *get_env(char *str, list_t *env)
 	while (str[cs] != '\0') /* find how many bytes in env variable title */
 		cs++;
 	cs++; /*counts 1 more for = sign*/
-	return (c_strdup(env->env_var_str, cs)); /* make a copy of variable w/o title */
+	return (c_strdup(env->env_var_str, cs));
+	/* make a copy of variable w/o title */
 }

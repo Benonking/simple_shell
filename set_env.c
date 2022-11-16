@@ -56,9 +56,9 @@ int _unsetenv(list_t **env, char **str)
 	}
 	return (0);
 }
-
 /**
- * _setenv - create or modify existing environmental variable in linked list
+ * _setenv - create or modify existing
+ * environmental variable in linked list
  * @env: linked list
  * @str: user's typed in command (e.g. "setenv USER Superman")
  * Return: 0 on success, 1 on fail
@@ -86,7 +86,7 @@ int _setenv(list_t **env, char **str)
 	else
 	{
 		holder = *env;
-		while(j < index)
+		while (j < index)
 		{
 			holder = holder->next;
 			j++;
@@ -98,5 +98,3 @@ int _setenv(list_t **env, char **str)
 	free_double_ptr(str);
 	return (0);
 }
-
-	
