@@ -4,6 +4,7 @@
  * main - create simple shell
  * @argc: number of arguments passed
  * @argv: program arguments to be parsed
+ * @end: the shell
  *
  * applies the functions in utils and helpers
  * implements EOF
