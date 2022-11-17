@@ -5,8 +5,7 @@
  * @argc: number of arguments passed
  * @argv: program arguments to be parsed
  * @env: string passed to the shell
- *
- * applies the functions in utils and helpers
+ * Descirption: Applies the functions in utils and helpers
  * implements EOF
  * Prints error on Failure
  * Return: 0 on success
